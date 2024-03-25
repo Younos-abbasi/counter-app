@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica;
+}
+.container {
+  background-color: #fcc419;
+  width: 500px;
+  height: 250px;
+  margin: 50px auto;
+}
+#counter__label {
+  font-size: 2.5em;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+#btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.btn {
+  width: 120px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  color: #000;
+  font-size: 1em;
+}
